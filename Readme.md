@@ -2,7 +2,6 @@
 Demonstrates how to initialize a simple docker image.
 
 
-///////////////////////////////////////////////////////////////////
 Clone the repository, then navigate to the directory using terminal.
 
 Run the command $ python3 app.py. The terminal will log the following message:
@@ -19,7 +18,6 @@ Debug mode: off
  show up in your image list:
 
  $ docker image ls
-/////////////////////////////////////////////////////////////////////
 
 The Dockerfile in the directory contains the four layers of the image.
 
