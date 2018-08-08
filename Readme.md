@@ -33,18 +33,18 @@ The flask application will default to port 5000 of your application unless other
 5. Navigate to http://localhost:XXXX [where XXXX represents a port number] in a browser. The message :
   "Zygium says hello beautiful world" will be displayed.
 
-6. To view a list of running containers, run the following command:
+6. To **view a list of running containers**, run the following command:
 ```
 $ docker container ls
 ```
 
-7. Stop the docker container with the following command:
+7. **Stop the docker container** with the following command:
 ```
 $ docker stop 'xxxx'
 ```
   [where xxxx represents the first four digits of the container id]
 
-8. You can remove all docker images with the following command:
+8. You can **remove all docker images** with the following command:
 ```
 $ docker rmi -f $(docker images -a -q)
 ```
