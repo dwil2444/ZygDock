@@ -21,12 +21,12 @@ show up in your image list:**
 ```
  $ docker image ls
 ```
-The base image from the docker file : python:3.6.1-alpine should appear in the list of images :+1:
+The base image from the docker file : python:3.6.1-alpine should appear in the list of images.
 
 4. To **run the docker image**, run the following command from the terminal:
-```$ docker run -p 3000:3000 -d python-hello-world
+```$ docker run -p 3000:3000 -d 'image-name-here'
 ```
-The flask application will default to port 5000 of your application unless otherwise specified. The -p flag maps a port running inside the container to your host. In this case, you’re mapping the Python app running on port 5000 inside the container to port 5001 on your host.
+The flask application will default to port 5000 of your application unless otherwise specified. The -p flag maps a port running inside the container to your host. In this case, you’re mapping the Python app running on port 3000 inside the container to port 3000 on your host.
 [You can specify the Flask port by specifying the port number in the app.py file ```app.run(host='0.0.0.0', port = 3000)```]
 
 5. Navigate to http://localhost:XXXX [where XXXX represents a port number] in a browser. The message :
